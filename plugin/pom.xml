@@ -4,7 +4,7 @@
     <parent>
         <artifactId>webchat</artifactId>
         <groupId>org.igniterealtime.openfire.fastpath</groupId>
-        <version>4.2.0-SNAPSHOT</version>
+        <version>4.2.0-jakarta-050620252333</version>
     </parent>
     <artifactId>webchat-plugin</artifactId>
     <name>Fastpath Webchat plugin</name>
