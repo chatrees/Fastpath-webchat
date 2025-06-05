@@ -250,7 +250,7 @@
 
     <!-- -check-openfire ====================================================================== -->
     <target name="-check-openfire">
-        <available file="${openfire.home}/build/build.xml" property="openfire.not.ok" />
+        <available file="${openfire.home}/mvnw" property="openfire.not.ok" />
         <fail unless="openfire.not.ok" message="Please reference the Openfire project root directory using the openfire.home property. Example: ant -Dopenfire.home=../openfire/" />
     </target>
 

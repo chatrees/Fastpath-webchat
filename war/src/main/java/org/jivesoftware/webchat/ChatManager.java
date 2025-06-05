@@ -35,7 +35,7 @@ import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 /**
  * The ChatManager for the Web Chat Service. The ChatManager handles all ChatSessions,
